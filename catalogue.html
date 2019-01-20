@@ -3,24 +3,41 @@
   <head>
     <meta charset="utf-8">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="cat.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="cat.js" charset="utf-8"></script>
     <title>Catalogue</title>
   </head>
   <body>
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+    <nav class="navbar navbar-inverse">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" data-label-expanded="Close" aria-expanded="false">
+    <span class="navbar-toggle-label">Menu</span>
+    <span class="sr-only">(toggle)</span>
+
+    <span class="navbar-toggle-icon">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
+</nav>
+
+<nav class="navbar navbar-inverse">
+  <button type="button" class="navbar-toggle navbar-toggle-left collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" data-label-expanded="Close" aria-expanded="false">
+    <span class="navbar-toggle-label">Menu</span>
+    <span class="sr-only">(toggle)</span>
+
+    <span class="navbar-toggle-icon">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2"></div>
+</nav>
   </body>
 </html>
