@@ -66,3 +66,48 @@
   top: 6px;
   transform: rotate(-45deg);
 }
+.carousel .item{
+  text-align: center;
+  height: 300px !important;
+}
+.carousel h2{
+	color: #fff;
+	margin: 0;
+  padding-top: 50px;
+  font-size: 48px;
+}
+.carousel p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.btn-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.pur {
+  background: url(catster1.jpg) no-repeat top center;
+  background-size: cover;
+}
+.fluf {
+  background: url(catopoes2.jpg) no-repeat top center;
+  background-size: cover;
+}
+.land {
+  background: url(catlander1.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.navbar-right {
+  float: right !important;
+}
+
+.dropdown-toggle {
+  background-color: transparent !important;
+  float: right;
+}

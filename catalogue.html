@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="cat.css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="cat.js" charset="utf-8"></script>
-    <title>Catalogue</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" data-label-expanded="Close" aria-expanded="false">
-    <span class="navbar-toggle-label">Menu</span>
-    <span class="sr-only">(toggle)</span>
 
-    <span class="navbar-toggle-icon">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </span>
-  </button>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="cat.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="cat.js" charset="utf-8"></script>
+  <title>Catalogue</title>
+</head>
 
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
-</nav>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-collapse js-navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Menu
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Main page</a></li>
+              <li><a href="#">Price list</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Info</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="testCarousel" class="carousel slide" data-ride="carousel">
 
-<nav class="navbar navbar-inverse">
-  <button type="button" class="navbar-toggle navbar-toggle-left collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" data-label-expanded="Close" aria-expanded="false">
-    <span class="navbar-toggle-label">Menu</span>
-    <span class="sr-only">(toggle)</span>
+    <div class="carousel-inner">
 
-    <span class="navbar-toggle-icon">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </span>
-  </button>
+      <div class="fluf item active">
+        <h2>Catopoes</h2>
+        <p>Fluffy one</p>
+        <button class="btn btn-primary btn-lg btn-left">More information</button>
+      </div>
 
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2"></div>
-</nav>
-  </body>
+      <div class="pur item">
+        <h2>Catster</h2>
+        <p>Purr purr purrrr</p>
+        <button class="btn btn-success btn-lg btn-left">More information</button>
+      </div>
+
+      <div class="land item">
+        <h2>Catlander</h2>
+        <p>Travel version</p>
+        <button class="btn btn-default btn-lg btn-left">More information</button>
+      </div>
+    </div>
+
+
+    <a class="left carousel-control" href="#testCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+
+    <a class="right carousel-control" href="#testCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+  <footer class="navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+      <p class="navbar-text pull-left">© 2019 - mariiaolden@gmail.com </p>
+    </div>
+  </footer>
+</body>
+
 </html>
